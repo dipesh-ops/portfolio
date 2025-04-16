@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Wix Madefor Text';
+  src: url('/font/WixMadeforTextVF_W_Wght.8022447a.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('/font/JTURjIg1_i6t8kCHKm45_dJE3gnD_vx3rCs.ttf');
+}
+
+.montSerratBold{
+  font-family: 'Montserrat Bold';
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.ttf');
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/font/BebasNeue-Regular.ttf');
+}
+.bebas{
+  font-family: 'Bebas Neue';
+}
+.montserrat{
+  font-family: 'Montserrat';
+}
+
+body{
+  background-color: black;
+}
