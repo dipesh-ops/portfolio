@@ -9,7 +9,6 @@ const Projects = () => {
     gsap.from('#Head', {
       transform : 'translateY(30%)',
       stagger : 2,
-      duration : 2,
       scrollTrigger : {
         trigger : '#Head',
         scroller : 'body',
