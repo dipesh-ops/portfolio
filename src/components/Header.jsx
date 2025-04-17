@@ -20,13 +20,21 @@ const Header = () => {
     <div ref={container} className='text-white md:mt-[4%] font-[Montserrat]'>
         <div className='flex flex-col md:flex-col lg:flex-row'>
         <div className="w-[100%] md:w-[100%] lg:w-[50%] right">
-            <div className="img pt-10 md:pt-0">
+            <div className="img pt-15 md:pt-0">
               <img src={vect} alt="no image" />
             </div>
         </div>
-        <div className="left lg:w-[50%] px-5 pb-7">
+        <div>
+        <marquee className='bg-white text-green-500 lg:hidden p-4 text-3xl poetsenOne'><i className="ri-arrow-left-fill"></i> WELCOME TO MY PORTFOLIO <i className="ri-arrow-left-fill"></i> WELCOME TO MY PORTFOLIO <i className="ri-arrow-left-fill"></i> WELCOME TO MY PORTFOLIO</marquee>
+
+        </div>
+        <div className="left w-[100wh] lg:w-[50%] px-5 pb-7">
             <About/>
         </div>
+        </div>
+
+        <div>
+        <marquee className='bg-white text-green-500 hidden lg:block p-4 text-3xl poetsenOne'><i className="ri-arrow-left-fill"></i> WELCOME TO MY PORTFOLIO <i className="ri-arrow-left-fill"></i> WELCOME TO MY PORTFOLIO <i className="ri-arrow-left-fill"></i> WELCOME TO MY PORTFOLIO</marquee>
         </div>
     </div>
   )

@@ -85,7 +85,7 @@ const Skills = () => {
 
   }, [])
   return (
-    <div ref={container} className='text-white text-3xl overflow-hidden montserrat p-4 md:p-15 bg-neutral-800'>
+    <div ref={container} className='text-white text-3xl overflow-hidden montserrat p-4 pt-18 md:p-15 bg-neutral-800'>
         <h1 id='heading' className='heading'>Things I'm <span className='text-green-500'>Good</span> At</h1>
 
         <div>

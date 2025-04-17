@@ -20,11 +20,9 @@ const Menu = () => {
             });
         }
     }
-
-    console.log(getToggle);
-
+    
     return (
-        <div className='absolute md:hidden z-3 bg-black text-white w-90 px-5 py-2 shadow-lg shadow-cyan-100'>
+        <div className='md:hidden z-3 bg-black text-white w-90 px-5 py-2 fixed top-16 left-0 right-0 shadow-lg shadow-cyan-100'>
             <ul onClick={toggler} className='ullist'>
                 <Link to='/'>
                     <li className='border-2 border-green-300 p-2 rounded-lg m-2 cursor-pointer'>Home</li>
