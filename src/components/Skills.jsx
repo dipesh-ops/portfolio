@@ -25,7 +25,7 @@ const Skills = () => {
         trigger : '#heading',
         scroller : 'body',
         start : 'top 80%',
-        end : 'top 65%',
+        end : 'top 55%',
         scrub : 2
       }
     })
@@ -36,7 +36,7 @@ const Skills = () => {
         trigger : '#frontEnd',
         scroller : 'body',
         start : 'top 80%',
-        end : 'top 65%',
+        end : 'top 55%',
         scrub : 2,
       }
     })
@@ -51,7 +51,7 @@ const Skills = () => {
         opacity : 0,
         scroller : 'body',
         start : 'top 80%',
-        end : 'top 65%',
+        end : 'top 55%',
         scrub : 5,
       }
     })
@@ -63,7 +63,7 @@ const Skills = () => {
         trigger : '#frontEnd2',
         scroller : 'body',
         start : 'top 80%',
-        end : 'top 65%',
+        end : 'top 55%',
         scrub : 2,
       }
     })
@@ -78,7 +78,7 @@ const Skills = () => {
         opacity : 0,
         scroller : 'body',
         start : 'top 80%',
-        end : 'top 65%',
+        end : 'top 55%',
         scrub : 4,
       }
     })
