@@ -1,12 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import gsap from 'gsap'
 import project1 from '../img/projectImages/Screenshot (30).png'
 import project2 from '../img/projectImages/Screenshot (40).png'
 import project3 from '../img/projectImages/Screenshot (56).png'
 const Projects = () => {
+
+  useEffect(()=>{
+    gsap.from('#Head', {
+      transform : 'translateY(30%)',
+      stagger : 2,
+      duration : 2,
+      scrollTrigger : {
+        trigger : '#Head',
+        scroller : 'body',
+        start : 'top 80%',
+        end : 'top 65%',
+        scrub : 1,
+      }
+    })
+  },[])
   return (
     <div className='text-white px-7 md:px-15 mb-15'>
       <div className='mt-10 flex justify-center'>
-        <h1 className='text-5xl montSerratBold'>Here Are <span className='text-pink-400'>Some</span> Of My <span className='text-green-500'>Projects</span></h1>
+        <h1 id='Head'  className='text-5xl montSerratBold'>Here Are <span className='text-pink-400'>Some</span> Of My <span className='text-green-500'>Projects</span></h1>
       </div>
 
       <div className='mt-15'>

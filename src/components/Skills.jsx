@@ -24,8 +24,8 @@ const Skills = () => {
       scrollTrigger : {
         trigger : '#heading',
         scroller : 'body',
-        start : 'top 90%',
-        end : 'top 80%',
+        start : 'top 80%',
+        end : 'top 65%',
         scrub : 2
       }
     })
@@ -35,8 +35,8 @@ const Skills = () => {
       scrollTrigger : {
         trigger : '#frontEnd',
         scroller : 'body',
-        start : 'top 90%',
-        end : 'top 80%',
+        start : 'top 80%',
+        end : 'top 65%',
         scrub : 2,
       }
     })
@@ -44,14 +44,15 @@ const Skills = () => {
     gsap.from('#imgContainer img', {
       transform : 'translateX(-100%)',
       stagger : 2,
+      duration : 2,
       scrollTrigger : {
         trigger : '#imgContainer img',
         duration : 1,
         opacity : 0,
         scroller : 'body',
-        start : 'top 90%',
-        end : 'top 80%',
-        scrub : 2,
+        start : 'top 80%',
+        end : 'top 65%',
+        scrub : 5,
       }
     })
 
@@ -61,8 +62,8 @@ const Skills = () => {
       scrollTrigger : {
         trigger : '#frontEnd2',
         scroller : 'body',
-        start : 'top 90%',
-        end : 'top 80%',
+        start : 'top 80%',
+        end : 'top 65%',
         scrub : 2,
       }
     })
@@ -70,14 +71,15 @@ const Skills = () => {
       gsap.from('#imgContainer2 img', {
       transform : 'translateX(-100%)',
       stagger : 2,
+      duration : 2,
       scrollTrigger : {
         trigger : '#imgContainer2 img',
         duration : 1,
         opacity : 0,
         scroller : 'body',
-        start : 'top 90%',
-        end : 'top 80%',
-        scrub : 2,
+        start : 'top 80%',
+        end : 'top 65%',
+        scrub : 4,
       }
     })
 

@@ -20,7 +20,7 @@ const Header = () => {
     <div ref={container} className='text-white md:mt-[4%] font-[Montserrat]'>
         <div className='flex flex-col md:flex-col lg:flex-row'>
         <div className="w-[100%] md:w-[100%] lg:w-[50%] right">
-            <div className="img">
+            <div className="img pt-10 md:pt-0">
               <img src={vect} alt="no image" />
             </div>
         </div>

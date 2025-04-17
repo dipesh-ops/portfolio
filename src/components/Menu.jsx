@@ -56,7 +56,7 @@ const Menu = () => {
 
                 <li className='border-2 border-green-300 p-2 rounded-lg m-2 cursor-pointer'>
                     <a href="https://www.linkedin.com/in/dipesh-meshram"><i className="border mr-1 hover:bg-blue-500 border-green-300 rounded-md p-2 ri-linkedin-line"></i></a>
-                    <a href="https://www.instagram.com/_dipesh_meshram/"><i className="border mr-1 hover:bg-blue-500 border-green-300 rounded-md p-2 ri-linkedin-line"></i></a>
+                    <a href="https://www.instagram.com/_dipesh_meshram/"><i className="border mr-1 hover:bg-blue-500 border-green-300 rounded-md p-2 ri-instagram-line"></i></a>
                     <a href="https://github.com/dipesh-ops"><i className="border mr-1 hover:bg-black border-green-300 rounded-md p-2 ri-github-fill"></i></a>
                 </li>
 
