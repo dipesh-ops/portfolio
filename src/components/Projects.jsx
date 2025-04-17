@@ -7,7 +7,7 @@ const Projects = () => {
 
   useEffect(()=>{
     gsap.from('#Head', {
-      transform : 'translateX(70%)',
+      transform : 'translateY(70%)',
       stagger : 2,
       scrollTrigger : {
         trigger : '#Head',
