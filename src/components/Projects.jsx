@@ -7,7 +7,7 @@ const Projects = () => {
 
   useEffect(()=>{
     gsap.from('#Head', {
-      transform : 'translateY(30%)',
+      transform : 'translateX(70%)',
       stagger : 2,
       scrollTrigger : {
         trigger : '#Head',
@@ -20,7 +20,7 @@ const Projects = () => {
   },[])
   return (
     <div className='text-white px-7 md:px-15 mb-15'>
-      <div className='mt-10 flex justify-center'>
+      <div className='mt-18 flex justify-center'>
         <h1 id='Head'  className='text-5xl montSerratBold'>Here Are <span className='text-pink-400'>Some</span> Of My <span className='text-green-500'>Projects</span></h1>
       </div>
 
