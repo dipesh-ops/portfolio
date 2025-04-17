@@ -88,7 +88,7 @@ const Skills = () => {
 
         <div>
           <div className='mt-10'>
-              <h1 id='frontEnd' className='bg-gradient-to-r from-purple-400 to-green-500 bebas p-4 rounded-md md:w-[30%]'>Front-End Development</h1>
+              <h1 id='frontEnd' className='bg-gradient-to-r from-purple-400 to-green-500 poetsenOne p-4 rounded-md md:w-[30%]'>Front-End Development</h1>
           </div>
           <div className=''>
             <div id='imgContainer' className='mt-5 flex flex-wrap justify-center md:justify-start'>
@@ -105,7 +105,7 @@ const Skills = () => {
 
         <div>
           <div className='mt-10'>
-              <h1 id='frontEnd2' className='bg-gradient-to-r from-purple-400 to-green-500 bebas p-4 rounded-md md:w-[30%]'>Tools & Technologies</h1>
+              <h1 id='frontEnd2' className='bg-gradient-to-r from-purple-400 to-green-500 poetsenOne p-4 rounded-md md:w-[30%]'>Tools & Technologies</h1>
           </div>
 
           <div>

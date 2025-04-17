@@ -24,7 +24,7 @@ const Header = () => {
               <img src={vect} alt="no image" />
             </div>
         </div>
-        <div className="left lg:w-[50%] pl-5 pb-7">
+        <div className="left lg:w-[50%] px-5 pb-7">
             <About/>
         </div>
         </div>

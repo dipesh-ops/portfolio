@@ -23,11 +23,21 @@
   font-family: 'Bebas Neue';
   src: url('/font/BebasNeue-Regular.ttf');
 }
+
+@font-face {
+  font-family: 'PoetsenOne-Regular';
+  src: url('/font/PoetsenOne-Regular.ttf');
+}
+
 .bebas{
   font-family: 'Bebas Neue';
 }
 .montserrat{
   font-family: 'Montserrat';
+}
+
+.poetsenOne {
+  font-family: 'PoetsenOne-Regular';
 }
 
 body{

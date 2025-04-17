@@ -17,7 +17,7 @@ const About = () => {
   return (
     <div ref={container}>
       <div className="lg:h-screen flex justify-center items-center text-white">
-        <p className='paragraph md:w-140 text-[38px]'>Hi, I'm <span className='text-green-500'>Dipesh Meshram</span>. A passionate React.js developer specializing in building modern, responsive, and scalable web applications. Let's turn ideas into seamless digital experiences."</p>
+        <p className='paragraph poetsenOne md:w-140 text-[38px]'>Hi, I'm <span className='text-green-500'>Dipesh Meshram</span>. A passionate React.js developer specializing in building modern, responsive, and scalable web applications. Let's turn ideas into seamless digital experiences."</p>
       </div>
     </div>
   )
